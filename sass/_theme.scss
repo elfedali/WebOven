@@ -1,0 +1,122 @@
+.bg {
+    background: linear-gradient(135deg, #c17ddd 0%, #5f45e3 100%);
+}
+
+.lh {
+    line-height: 1.5;
+}
+.ls {
+    letter-spacing: 1.5px;
+}
+.btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    @extend .ls;
+}
+// get-in-touch
+#get-in-touch {
+    @extend .bg;
+    padding: 1rem 0;
+    h2 {
+        text-align: center;
+        color: #fff;
+    }
+}
+
+// footer
+#footer {
+    background-color: $light;
+    padding: 3rem 0;
+}
+
+// contact
+.form-group {
+    margin-bottom: 1rem;
+    label {
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        @extend .ls;
+    }
+}
+#contact {
+    padding: 3rem 0;
+    h2 {
+        color: $dark;
+    }
+}
+
+// ready
+
+#ready {
+    background-image: url("../images/sea.png");
+    background-color: $dark;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8rem 0;
+
+    text-align: center;
+    h2 {
+        color: #fff;
+        font-size: 4rem;
+    }
+}
+
+//  one-of-kind
+
+section#one-of-kind {
+    padding: 8rem 0;
+    .one-of-kind-inner {
+        margin-bottom: 3rem;
+        h2 {
+            color: lightcoral;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            text-align: left;
+        }
+        h3 {
+            color: $dark;
+            font-size: 2.5rem;
+            text-align: left;
+        }
+    }
+    i {
+        font-size: 3rem;
+        color: $dark;
+        margin-bottom: 2rem;
+        display: inline-block;
+    }
+}
+
+// services
+
+#services {
+    @extend .bg;
+    color: #fff;
+    h2 {
+        color: $dark;
+    }
+}
+
+// hero
+
+#hero {
+    background-color: $light;
+    .hero-inner {
+        padding: 8rem 0;
+        h1 {
+            font-size: 3rem;
+            color: $dark;
+            font-weight: 400;
+            @extend .ls;
+        }
+        p {
+            color: $dark;
+            font-size: 1.2rem;
+            @extend .lh;
+        }
+    }
+}

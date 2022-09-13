@@ -1,0 +1,23 @@
+{
+  "name": "weboven",
+  "version": "1.0.0",
+  "description": "-- Build your website so fast --",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfedali/WebOven.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elfedali/WebOven/issues"
+  },
+  "homepage": "https://github.com/elfedali/WebOven#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
