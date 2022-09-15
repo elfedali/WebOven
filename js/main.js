@@ -36,9 +36,11 @@ $(document).ready(function () {
         $(".text-success").show();
         $("#contact-form").trigger("reset");
         alert("Message sent successfully");
+        console.log(e);
       },
       error: function (e) {
         alert(e);
+        console.log(e);
       },
     });
   });
