@@ -32,9 +32,9 @@ $(document).ready(function () {
       type: "POST",
       url: "https://script.google.com/macros/s/AKfycbwEqs_xuAck_cK1wui5-H5Z0yhsLJugK_hmQCc-mZ2IGl4y7qZ_UGEBNnZ0TvAVQhiz/exec",
       data: dataString,
-      success: function (e) {
+      success: function (resp) {
         // $("#contact-form").trigger("reset");
-        alert(e);
+        alert(JSON.stringify(resp));
         console.log(e);
       },
     });
