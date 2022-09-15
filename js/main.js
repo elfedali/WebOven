@@ -15,7 +15,7 @@ $(document).ready(function () {
     var first_name = $("#first_name").val();
     var last_name = $("#last_name").val();
     var email = $("#email").val();
-    var subject = $("#subject").val();
+    var object = $("#object").val();
     var message = $("#message").val();
     var dataString =
       "last_name=" +
@@ -24,8 +24,8 @@ $(document).ready(function () {
       first_name +
       "&email=" +
       email +
-      "&subject=" +
-      subject +
+      "&object=" +
+      object +
       "&message=" +
       message;
     $.ajax({
