@@ -6,15 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebOven</title>
+    <!-- meta -->
+    <meta name="description"
+        content="WebOven is a web development team that provides web development services to small and medium businesses. Based in Morocco.">
+
+    <!-- favicon.png -->
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
     <!-- link css -->
     <link rel="stylesheet" href="css/theme.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">Web Oven</a>
+    <nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
+        <div class="container">
+            <a class="navbar-brand d-flex" href="/">
+                <img height="30" width="30" src="images/logo.svg" alt="WebOven" class="logo">
+                <span class="ms-1" style="line-height:1.1 ;font-size: .9rem;font-weight: 500;">
+                    <div>Web </div>
+                    <div>Oven</div>
+                </span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -24,6 +37,9 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -38,15 +54,19 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="hero-inner">
-                        <p>Our Goal</p>
+                        <p class="motif">Our Goal</p>
                         <h1>
-                            We help our clients realize their most important
-                            business goals
+                            Better Products <br>
+                            for better life
                         </h1>
+                        <h2 class="h4 mb-4">
+                            We help our clients realize their most important<br>
+                            business goals
+                        </h2>
 
-                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <a href="#contact" class="btn btn-outline-primary">Get Started</a>
                         <!-- watch video -->
-                        <a href="#" class="btn btn-outline-primary">Watch Video</a>
+                        <!-- <a href="#" class="btn btn-outline-primary">Watch Video</a> -->
 
                     </div>
                     <!-- /.hero-inner -->
@@ -54,7 +74,7 @@
                 <!-- /.col-lg-6 -->
                 <div class="col-lg-6">
 
-                    <img class="img-fluid" src="https://via.placeholder.com/600" alt="" srcset="">
+                    <img class="img-fluid" src="images/header.png" alt="" srcset="">
 
                 </div>
                 <!-- /.col-lg-6 -->
@@ -65,102 +85,85 @@
     </section>
     <!-- /#hero -->
 
-
-    <section id="solution">
-        <div class="container">
-            <row>
-                <div class="col-lg-6">
-                    <h2>Custom IT solution<br>
-                        for your business</h2>
-                    <p>
-                        We are a group of talented engineer will experienced in our field
-                        We do build best techo fot our client.
-                    </p>
-                    <p>
-                        We are a group of talented engineer will experienced in our field
-                        We do build best techo fot our client. We are designer and developers
-                        writers illustrators, we put our expertise in our need, contact us for an eventuel
-                        or contact us by clicking bellow
-                    </p>
-                    <a href="#" class="btn btn-primary">Contact Us</a>
-                </div>
-                <!-- /.col-lg-6 -->
-
-                <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/600" alt="" srcset="">
-                </div>
-            </row>
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /#solution -->
-
-
-    <section id="about">
+    <section id="services" class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
 
-                    <h2>We help with</h2>
-                    <h3>Building better <br> solutions</h3>
+                    <p class="motif-w">We help with</p>
+                    <h2>Building better <br> solutions</h2>
+
+
+
+
                     <!-- link -->
-                    <a href="#" class="btn btn-primary">Our Services</a>
+                    <!-- <a href="#" class="btn btn-outline-light">Our Services</a> -->
                 </div>
                 <!-- /.col-lg-4 -->
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="card">
+                            <div class="card mb-4 card-darker">
                                 <div class="card-body">
                                     <!-- bootstrap icon -->
-                                    <i class="bi bi-people-fill"></i>
-                                    <h5 class="card-title">Web Development</h5>
-                                    <p class="card-text">Naturally, study of cross-platform practices ensures integrity
+                                    <img height="50" src="images/icons/icon-web-2.svg" alt="">
+                                    <h5 class="card-title mt-4">Web Development</h5>
+                                    <p class="card-text">
+                                        <!-- description of web development -->
+                                        We build websites and web applications that are fast, secure, and easy to use.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card mb-4 card-darker">
+                                <div class="card-body">
+                                    <!-- bootstrap icon -->
+                                    <img height="50" src="images/icons/icon-marketing.svg" alt="">
+                                    <h5 class="card-title mt-4">Digital Marketing</h5>
+                                    <p class="card-text">
+                                        <!-- description of digital marketing -->
+                                        We help you to grow your business by using digital marketing.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.col-lg-6 -->
+                        <!-- /.col-lg-6 -->
+                        <div class="col-lg-6">
+                            <div class="card mb-4 card-darker">
+                                <div class="card-body">
+                                    <!-- bootstrap icon -->
+                                    <img height="50" src="images/icons/icon-design-3.svg" alt="">
+                                    <h5 class="card-title mt-4">Web Design</h5>
+                                    <p class="card-text">
+                                        <!-- description of web design -->
+                                        Great webdesign is about more than just looks. It's about creating a great user
+                                        experience.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <!-- /.col-lg-6 -->
                         <div class="col-lg-6">
-                            <div class="card">
+                            <div class="card mb-4 card-darker">
                                 <div class="card-body">
                                     <!-- bootstrap icon -->
-                                    <i class="bi bi-people-fill"></i>
-                                    <h5 class="card-title">Web Development</h5>
-                                    <p class="card-text">Naturally, study of cross-platform practices ensures integrity
+                                    <img height="50" src="images/icons/icon-seo-2.svg" alt="">
+                                    <h5 class="card-title mt-4">SEO</h5>
+                                    <p class="card-text">
+                                        <!-- description of SEO -->
+                                        We help you get found online by your customers and prospects through search
+                                        engine optimization.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
+
                                 </div>
                             </div>
                         </div>
                         <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <!-- bootstrap icon -->
-                                    <i class="bi bi-people-fill"></i>
-                                    <h5 class="card-title">Web Development</h5>
-                                    <p class="card-text">Naturally, study of cross-platform practices ensures integrity
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <!-- bootstrap icon -->
-                                    <i class="bi bi-people-fill"></i>
-                                    <h5 class="card-title">Web Development</h5>
-                                    <p class="card-text">Naturally, study of cross-platform practices ensures integrity
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.col-lg-6 -->
+
                     </div>
                     <!-- /.row -->
                 </div>
@@ -172,19 +175,66 @@
     </section>
     <!-- /#about -->
 
+    <section id="solution">
+        <div class="container">
+            <div class="row d-flex align-items-center">
 
 
-    <section id="services">
+
+                <div class="col-lg-6">
+                    <div>
+                        <h2>Web oven</h2>
+                        <p>
+                            We are a team of passionate developers and designers who love to build great products.
+                            we have a wide range of skills and experience in web development, web design, digital
+                            marketing, and SEO.
+                            we would love to help you with your next project.
+                        </p>
+                        <p>
+                            We build websites and web applications that are fast, secure, and easy to use. Besides that
+                            we help you to grow your business by using digital marketing.
+                            We help you get found online by your customers and prospects through search engine
+                            optimization.
+
+
+
+
+
+                        </p>
+                        <p>
+                            <b>If you are looking for a web developer or a digital marketing
+                                freelancer , you are in the
+                                right place. contact us today.</b>
+                        </p>
+                        <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/solution.png" alt="" srcset="">
+                </div>
+
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /#solution -->
+
+
+
+
+
+    <section id="services-x" class="d-none">
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <img class="img-fluid" src="https://via.placeholder.com/600" alt="" srcset="">
+                    <img class="img-fluid" src="images/desk.png" alt="" srcset="">
                 </div>
                 <!-- /.col-6 -->
                 <div class="col-lg-6  py-5">
-                    <h2 class="text-light">Our Services</h2>
-                    <h3 class="text-light">What we are doing?</h3>
-                    <p class="text-light">
+                    <h2>Our Services</h2>
+                    <h3>What we are doing?</h3>
+                    <p>
                         We are a group of talented engineer will experienced in our field
                         We do build best techo fot our client.
                     </p>
@@ -232,7 +282,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="one-of-kind-inner">
+                    <div class="one-of-kind-inner text-center">
                         <h2 class="">One of a kind</h2>
                         <h3>Quality digital Services<br>
                             you Realy want!</h3>
@@ -246,8 +296,14 @@
                             <!--  bootstap icon -->
                             <i class="bi bi-upc-scan h1"></i>
                             <h4>Tell us about your project</h4>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente dicta ad beatae
-                                nobis iusto?</p>
+                            <p>
+                                <!-- fill the form bellow -->
+                                Fill the form bellow and we will get back to you as soon as possible. We will be happy
+                                to answer any questions you may have.
+
+
+
+                            </p>
 
 
                         </div>
@@ -257,8 +313,11 @@
                             <h4>
                                 We will make it happen
                             </h4>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente dicta ad beatae
-                                nobis iusto?</p>
+                            <p>
+
+                                Our team will make your app ready and we will send you a link to test it. when you are
+                                happy with the result we will publish it for you.
+                            </p>
 
                         </div>
                         <!-- /.col-4 -->
@@ -267,8 +326,11 @@
                             <h4>
                                 We launch it & We support it</h4>
 
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente dicta ad beatae
-                                nobis iusto?</p>
+                            <p>
+                                <!-- We use  -->
+                                We use the latest technology to make sure your app is always up to date and secure. We
+                                will also provide you with a support team to help you with any issues you may have.
+                            </p>
 
                         </div>
                         <!-- /.col-4 -->
@@ -289,7 +351,7 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="mb-4">Ready to get started?</h2>
-                    <a href="#" class="btn btn-lg btn-light">Get Started</a>
+                    <a href="#contact" class="btn btn-lg btn-light">Get Started</a>
                 </div>
                 <!-- /.col-12 -->
             </div>
@@ -300,55 +362,55 @@
     <!-- /#ready -->
 
 
-    <section id="contact">
+    <section id="contact" class="bg-white">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mb-4 text-center">
                     <h2>Contact Us</h2>
-                    <h3>Get in touch with us</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                        Sunt sapiente dicta ad beatae nobis iusto?
+
+                    <p class="text-muted">
+                        Please fill out the form below and we will get back to you as soon as possible. <br>
+                        We will be happy to answer any questions you may have.
                     </p>
                     <!-- bootstrap form contact  / firstname lastname email object meessage send message -->
 
                 </div>
                 <!-- /.col-12 -->
-                <div class="col-lg-6">
+                <div class="col-lg-8 mx-auto">
                     <form action="">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="firstname">First Name</label>
                                     <input type="text" class="form-control" id="firstname" placeholder="First Name">
                                 </div>
                                 <!-- /.form-group -->
                             </div>
-                            <!-- /.col-6 -->
-                            <div class="col-6">
+                            <!-- /.col-md-6 -->
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="lastname">Last Name</label>
                                     <input type="text" class="form-control" id="lastname" placeholder="Last Name">
                                 </div>
                                 <!-- /.form-group -->
                             </div>
-                            <!-- /.col-6 -->
-                            <div class="col-6">
+                            <!-- /.col-md-6 -->
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email">Email</label>
                                     <input type="email" class="form-control" id="email" placeholder="Email">
                                 </div>
                                 <!-- /.form-group -->
                             </div>
-                            <!-- /.col-6 -->
-                            <div class="col-6">
+                            <!-- /.col-md-6 -->
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="object">Object</label>
                                     <input type="text" class="form-control" id="object" placeholder="Object">
                                 </div>
                                 <!-- /.form-group -->
                             </div>
-                            <!-- /.col-6 -->
+                            <!-- /.col-md-6 -->
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="message">Message</label>
@@ -358,17 +420,15 @@
                                 <!-- /.form-group -->
                             </div>
                             <!-- /.col-12 -->
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            <div class="col-12 text-end">
+                                <button type="submit" class="btn btn-outline-success">Send Message</button>
                             </div>
                             <!-- /.col-12 -->
                         </div>
                         <!-- /.row -->
                     </form>
                 </div>
-                <!-- /.col-lg-6 -->
-                <div class="col-lg-6"></div>
-                <!-- /.col-lg-6 -->
+
             </div>
             <!-- /.row -->
         </div>
@@ -376,58 +436,23 @@
     </section>
     <!-- /#contact -->
 
-    <section id="get-in-touch" class="bg">
-        <h2>
-            Get in touch with us for any kind of digital services
-        </h2>
+    <section id="get-in-touch" class="bg-primary">
+        <div class="container-fluid">
+            <h2>
+                Get in touch with us for any kind of digital services
+            </h2>
+        </div>
     </section>
     <!-- /#get-in-touch -->
 
-    <div id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h2>Company</h2>
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Our Clients</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <h2>Services</h2>
-                    <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Mobile App Development</a></li>
-                        <li><a href="#">Digital Marketing</a></li>
-                        <li><a href="#">SEO</a></li>
-                    </ul>
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <h2>Follow us</h2>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Linkedin</a></li>
-                        <li><a href="#">Youtube</a></li>
-                    </ul>
-                </div>
-                <!-- /.col-lg-4 -->
-            </div>
-            <!-- /.row -->
-        </div>
+    <div id="footer" class="bg-dark text-light">
+
         <!-- /.container -->
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <p>
-                        &copy; 2019 All Rights Reserved. Designed by <a href="#">BootstrapMade</a>
+                        &copy; 2022 All Rights Reserved. Designed by <a href="/">weboven.ma</a>
                     </p>
                 </div>
                 <!-- /.col-12 -->
@@ -438,6 +463,12 @@
         <!-- /.container -->
     </div>
     <!-- /#footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

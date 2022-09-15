@@ -1,4 +1,7 @@
 $font-family-base: "MADE TOMMY", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $primary : #705fc1;
+$primary : #f0674d;
+$primary : crimson;
 
 $input-focus-box-shadow: none;
 
@@ -6,7 +9,13 @@ $input-btn-border-width: 2px;
 $input-padding-x: 1rem;
 $input-padding-y: 0.5rem;
 
+$line-height-base : 1.8;
+
 $input-btn-font-size: 0.9rem;
+
+$btn-border-radius : 5rem;
+
+
 
 @import "../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="538px" height="538px" viewBox="0 0 538 538" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-4">
+    <path d="M0 269C0 120.435 120.435 0 269 0C417.565 0 538 120.435 538 269C538 417.565 417.565 538 269 538C120.435 538 0 417.565 0 269Z" id="Oval" fill="#ED143D" fill-rule="evenodd" stroke="none" />
+    <g id="Group-3" transform="translate(51 50.99951)">
+      <g id="Group-2" transform="translate(0 109.00049)">
+        <path d="M0 109C0 48.801 48.801 0 109 0C169.199 0 218 48.801 218 109C218 169.199 169.199 218 109 218C48.801 218 0 169.199 0 109Z" id="Oval" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        <path d="M218 109C218 48.801 266.801 0 327 0C387.199 0 436 48.801 436 109C436 169.199 387.199 218 327 218C266.801 218 218 169.199 218 109Z" id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      </g>
+      <g id="Group" transform="matrix(-3.8027724E-06 1 -1 -3.8027724E-06 327.00098 0.0007324219)">
+        <path d="M0 109C0 48.801 48.801 0 109 0C169.199 0 218 48.801 218 109C218 169.199 169.199 218 109 218C48.801 218 0 169.199 0 109Z" id="Oval-Copy-2" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        <path d="M218 109C218 48.801 266.801 0 327 0C387.199 0 436 48.801 436 109C436 169.199 387.199 218 327 218C266.801 218 218 169.199 218 109Z" id="Oval-Copy-3" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+    <path d="M181 269C181 220.399 220.399 181 269 181C317.601 181 357 220.399 357 269C357 317.601 317.601 357 269 357C220.399 357 181 317.601 181 269Z" id="Oval-Copy" fill="#ED143D" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
