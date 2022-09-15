@@ -20,7 +20,7 @@ $(document).ready(function () {
     var dataString =
       "last_name=" +
       last_name +
-      "first_name=" +
+      "&first_name=" +
       first_name +
       "&email=" +
       email +
