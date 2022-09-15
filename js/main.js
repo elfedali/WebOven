@@ -30,7 +30,7 @@ $(document).ready(function () {
       message;
     $.ajax({
       type: "POST",
-      url: "https://script.google.com/macros/s/AKfycbzqbVu46O351AegY8kPmu9S43v3MTvLk7Rr7zBaeLGcyfJ7pMl-OiAp4XnOMSRiW5Wy/exec",
+      url: "https://script.google.com/macros/s/AKfycbxOdGo67J6c52Rv3ZyBEuwA2ZSJ2nAjPOh56bvbFm_7JR-j5EfjBwjOP9ybpmANhl4J/exec",
       data: dataString,
       success: function (e) {
         $(".text-success").show();
