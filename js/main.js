@@ -33,8 +33,8 @@ $(document).ready(function () {
       url: "https://script.google.com/macros/s/AKfycbwEqs_xuAck_cK1wui5-H5Z0yhsLJugK_hmQCc-mZ2IGl4y7qZ_UGEBNnZ0TvAVQhiz/exec",
       data: dataString,
       success: function (resp) {
-        // $("#contact-form").trigger("reset");
-        alert(JSON.stringify(resp));
+        $("#contact-form").trigger("reset");
+        alert(JSON.stringify(resp.message));
         console.log(e);
       },
     });
