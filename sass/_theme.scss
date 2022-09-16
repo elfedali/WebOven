@@ -210,3 +210,11 @@ section#services {
     color: #fff;
     border: 0;
 }
+
+// media query
+
+@include media-breakpoint-down(md) {
+    .bg-mobile {
+        background: #FFF;
+    }
+}

@@ -1,14 +1,18 @@
 // jquery ready
 $(document).ready(function () {
   // add class onscroll
+  checkScroll();
   $(window).scroll(function () {
+    checkScroll();
+  });
+
+  function checkScroll() {
     if ($(window).scrollTop() > 80) {
       $(".navbar").addClass("bg-white shadow-sm");
     } else {
       $(".navbar").removeClass("bg-white shadow-sm");
     }
-  });
-
+  }
   /**ajax form sumbit */
   $("#contact-form").submit(function (e) {
     e.preventDefault();
